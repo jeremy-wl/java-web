@@ -16,4 +16,4 @@ phases:
       - echo Build completed on `date`
 artifacts:
   files:
-    - target/a/b/JavaWeb.war
+    - target/JavaWeb.war
