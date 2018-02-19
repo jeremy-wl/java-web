@@ -3,8 +3,8 @@ version: 0.1
 phases:
   install:
     commands:
-      - echo "CODEBUILD_GOPATH: $CODEBUILD_GOPATH"
-      - echo "CODEBUILD_SRC_DIR: $CODEBUILD_SRC_DIR"
+      - echo "CODEBUILD_GOPATH is $CODEBUILD_GOPATH"
+      - echo "CODEBUILD_SRC_DIR is $CODEBUILD_SRC_DIR"
       - echo Nothing to do in the install phase...
   pre_build:
     commands:
