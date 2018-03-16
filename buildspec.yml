@@ -20,4 +20,4 @@ phases:
 artifacts:
   files:
     - src/main/webapp/index.jsp
-  name: ${VARNAME}.zip
+  name: ${CODEBUILD_BUILD_VERSION}.zip
