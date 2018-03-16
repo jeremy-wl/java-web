@@ -20,5 +20,5 @@ phases:
 artifacts:
   files:
     - src/main/webapp/index.jsp
-  name: artifact-0.0.1
+  name: ${USER}.zip
   
