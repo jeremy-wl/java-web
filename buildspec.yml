@@ -1,6 +1,10 @@
 version: 0.1
 build-version: 0.0.1
 
+env:
+  variables:
+    USER_NAME: wenlin
+
 phases:
   install:
     commands:
@@ -20,4 +24,4 @@ phases:
 artifacts:
   files:
     - src/main/webapp/index.jsp
-  name: ${CODEBUILD_BUILD_VERSION}.zip
+  name: ${USER_NAME}-0.0.1.zip
