@@ -24,4 +24,4 @@ phases:
 artifacts:
   files:
     - src/main/webapp/index.jsp
-  name: ${USER_NAME}-0.0.1.zip
+  name: ${USER_NAME}-${CODEBUILD_BUILD_VERSION}.zip
