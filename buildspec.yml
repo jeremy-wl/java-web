@@ -1,5 +1,5 @@
 version: 0.2
-build-version: 0.0.1
+build-version: $<gitversion:semver>
 
 env:
   variables:
